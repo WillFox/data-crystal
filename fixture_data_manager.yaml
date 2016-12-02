@@ -1,0 +1,70 @@
+- model: data_manager.Data
+  pk: 1
+  fields:
+    name: Crystal X1 Formation under stress
+    public: False
+    created_on: "2013-03-16 17:41:28"
+    updated_on: "2013-03-16 17:41:28"
+    description: "Is descripbing this crystal a necessity"
+    path_to_file: "/this/isfake/path"
+  #  last_name: Lennon
+- model: data_manager.Data
+  pk: 2
+  fields:
+    name: Cloud Patterns hv80Qt1
+    public: True
+    created_on: "2013-03-16 17:41:28"
+    updated_on: "2013-03-16 17:41:28"
+    description: "Is descripbing this crystal a necessity"
+    path_to_file: "/this/isfake/path"
+  #  last_name: McCartney
+- model: data_manager.Data
+  pk: 3
+  fields:
+    name: Image of crystal XtV y plane
+    public: True
+    created_on: "2013-03-16 17:41:28"
+    updated_on: "2013-03-16 17:41:28"
+    description: "Is descripbing this crystal a necessity"
+    path_to_file: "/this/isfake/path"
+  #  last_name: McCartney
+- model: data_manager.Data
+  pk: 4
+  fields:
+    name: Chemical Zn12rt3 photo
+    public: True
+    created_on: "2013-03-16 17:41:28"
+    updated_on: "2013-03-16 17:41:28"
+    description: "Is descripbing this crystal a necessity"
+    path_to_file: "/this/isfake/path"
+  #  last_name: McCartney
+- model: data_manager.Data
+  pk: 5
+  fields:
+    name: Simulation alpha centauri xml
+    public: False
+    created_on: "2013-03-16 17:41:28"
+    updated_on: "2013-03-16 17:41:28"
+    description: "Is descripbing this crystal a necessity"
+    path_to_file: "/this/isfake/path"
+  #  last_name: McCartney
+- model: data_manager.Data
+  pk: 6
+  fields:
+    name: MRI Rat with chemical Zn12rt3
+    public: True
+    created_on: "2013-03-16 17:41:28"
+    updated_on: "2013-03-16 17:41:28"
+    description: "Is descripbing this crystal a necessity"
+    path_to_file: "/this/isfake/path"
+  #  last_name: McCartney
+- model: data_manager.Data
+  pk: 7
+  fields:
+    name: Blank Data Disk Scan
+    public: True
+    created_on: "2013-03-16 17:41:28"
+    updated_on: "2013-03-16 17:41:28"
+    description: "Is descripbing this crystal a necessity"
+    path_to_file: "/this/isfake/path"
+  #  last_name: McCartney

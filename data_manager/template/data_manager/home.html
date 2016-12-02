@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+{%extends "data_manager/base.html"%}
+{%block content%}
+
+ <div class="jumbotron">
+    <div class="container">
+      <h1>We are Building</h1>
+      <p>It is going to be a while before things look like they have come together.  Give it some time and this will all be in order.  Thanks!</p>
+      <p><a class="btn btn-info btn-lg" href="" role="button">Test out the demo! &raquo;</a></p>
+    </div>
+  </div>
+  <div class="container">
+ <h3>
+   <span class="glyphicon glyphicon-arrow-down"></span>  
+     Some public data available for browsing
+  <span class="glyphicon glyphicon-arrow-down"></span>
+</h3>
+  <div class="row">
+    {% for data in datas %}
+    <div class="col-md-4">
+      <h2>{{data.name|truncatechars:20}}</h2>
+      <p>{{data.description}}</p>
+      <p>{{data.created_on}}</p>
+      <p>Public:{{data.public}}</p>
+      <p><a class="btn btn-primary" href="{{prefix}}data/{{data.id}}/" role="button">Details &raquo;</a></p>
+    </div>
+    {% endfor %}
+  </div>
+  {%endblock%}

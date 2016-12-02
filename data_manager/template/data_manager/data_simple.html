@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+{%extends "data_manager/base.html"%}
+{%block content%}
+
+ <div class="jumbotron">
+    <div class="container">
+      <h1>{{data.name}}</h1>
+      <p>{{data.description}}</p>
+      <p>{{data.created_on}}</p>
+      <p>Public:{{data.public}}</p>
+    </div>
+  </div>
+  <div class="container">
+  {%endblock%}
