@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '4r*)i$w(6mpp9s-356+$_4#j86jqp2xbb6o&o@ni9*2tcq-l#j'
+SECRET_KEY = 'your_secret_key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -80,6 +80,7 @@ WSGI_APPLICATION = 'data_crystal.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
+#Input your django database.  Look at Django docs for development database
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
